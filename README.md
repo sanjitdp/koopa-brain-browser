@@ -8,7 +8,7 @@ Can we use a steady-state visual evoked potential (SSVEP) for fast prediction wh
 Visual stimulus from non-standard shapes will elicit a discernible signal collected via EEG, which can be used to construct an application to aid in web browsing.
 
 ## Measurable Metrics
-We will keep track of performance for each type of shape used in experimentation and testing; this will allow us to see what shapes we can predict most efficiently. The proportion of correct and incorrect clicks made by the application with its predictive model will allow us to analyze the accuracy of the model at identifying what the user is attempting to select on the screen. Furthermore, the information transfer rate (ITR) will be measured to ensure that the web browsing can be done conveniently and quickly.
+We will keep track of performance for each type of shape used in experimentation and testing; this will allow us to see what shapes we can predict most efficiently. The proportion of correct and incorrect clicks made by the application with its predictive model will allow us to analyze the accuracy of the model at identifying what the user is attempting to select on the screen. Furthermore, the information transfer rate (ITR) will be measured to ensure that the web browsing can be done conveniently and quickly. We will also keep track of which electrods provide the clearest signal in order to localize the brain activity elicited.
 
 ## Experimental Design and Data Pipeline
 * Write a web application to flash different parts of the screen and get the corresponding brain signals data of where the flash is on the screen (localized prediction, not classifying into squares or regularized shapes).
